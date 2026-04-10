@@ -3,7 +3,7 @@
 ## But de l'application
 AutoTel AI est un dashboard de surveillance reseau telecom enterprise. Il permet aux equipes operationnelles de monitorer en temps reel l'etat de leur infrastructure reseau, de detecter automatiquement les anomalies grace au machine learning, de predire l'evolution du trafic et d'obtenir des recommandations d'optimisation. L'application centralise toutes les metriques critiques (debit, latence, congestion, signal, energie) en un seul outil, avec support de donnees reelles via import CSV.
 
----
+
 
 ## Fonctionnalites
 - Tableau de bord temps reel (KPIs, trafic, latence, congestion)
@@ -16,29 +16,24 @@ AutoTel AI est un dashboard de surveillance reseau telecom enterprise. Il permet
 - Simulateur de scenarios reseau
 - Analyses intelligentes et alertes
 
----
+
 
 ## Installation
 
-```bash
+   bash
 git clone https://github.com/votre-repo/autotel-ai.git
 cd autotel-ai
 pip install -r requirements.txt
 streamlit run app.py
-```
 
----
 
 ## Structure
 
-```
+
 autotel-ai/
 ├── app.py
 ├── requirements.txt
 └── README.md
-```
-
----
 
 ## Format CSV pour l'import
 
@@ -54,7 +49,7 @@ autotel-ai/
 | signal_dbm      | float    | optionnel   |
 | active_users    | int      | optionnel   |
 
----
+
 
 ## Stack
 - **Frontend** : Streamlit
@@ -62,9 +57,13 @@ autotel-ai/
 - **ML** : scikit-learn (Isolation Forest, Gradient Boosting)
 - **Data** : pandas, numpy
 
----
 
+*AutoTel AI v3.0 — Construit pour les operations telecom enterprise*
 ## Auteur
 **ANOH AMON HEMERSON** — Data Scientist · Analytique Telecom · Systemes IA
 
+## lien de l'appli
+https://autotel-ia.streamlit.app/
+
 *AutoTel AI v3.0 — Construit pour les operations telecom enterprise*
+
