@@ -1,20 +1,20 @@
-# AutoTel AI ??? Telecom Intelligence Platform
+# AutoTel AI — Telecom Intelligence Platform
 
 ## But de l'application
-AutoTel AI est un dashboard de surveillance r??seau t??l??com enterprise. Il permet aux ??quipes op??rationnelles de monitorer en temps r??el l'??tat de leur infrastructure r??seau, de d??tecter automatiquement les anomalies gr??ce au machine learning, de pr??dire l'??volution du trafic et d'obtenir des recommandations d'optimisation. L'application centralise toutes les m??triques critiques (d??bit, latence, congestion, signal, ??nergie) en un seul outil, avec support de donn??es r??elles via import CSV.
+AutoTel AI est un dashboard de surveillance reseau telecom enterprise. Il permet aux equipes operationnelles de monitorer en temps reel l'etat de leur infrastructure reseau, de detecter automatiquement les anomalies grace au machine learning, de predire l'evolution du trafic et d'obtenir des recommandations d'optimisation. L'application centralise toutes les metriques critiques (debit, latence, congestion, signal, energie) en un seul outil, avec support de donnees reelles via import CSV.
 
 ---
 
-## Fonctionnalit??s
-- ???? Tableau de bord temps r??el (KPIs, trafic, latence, congestion)
-- ???? Surveillance multi-m??triques (d??bit, pertes paquets, signal, utilisateurs)
-- ??????? Carte g??ographique interactive des antennes (Abidjan)
-- ???? Import de donn??es r??elles CSV (SNMP, NetFlow, OSS/BSS)
-- ???? Pr??diction de trafic (Gradient Boosting)
-- ???? D??tection d'anomalies (Isolation Forest)
-- ?????? Optimisation et recommandations automatiques
-- ??????? Simulateur de sc??narios r??seau
-- ???? Analyses intelligentes et alertes
+## Fonctionnalites
+- Tableau de bord temps reel (KPIs, trafic, latence, congestion)
+- Surveillance multi-metriques (debit, pertes paquets, signal, utilisateurs)
+- Carte geographique interactive des antennes (Abidjan)
+- Import de donnees reelles CSV (SNMP, NetFlow, OSS/BSS)
+- Prediction de trafic (Gradient Boosting)
+- Detection d'anomalies (Isolation Forest)
+- Optimisation et recommandations automatiques
+- Simulateur de scenarios reseau
+- Analyses intelligentes et alertes
 
 ---
 
@@ -30,27 +30,29 @@ streamlit run app.py
 ---
 
 ## Structure
+
 ```
 autotel-ai/
-????????? app.py
-????????? requirements.txt
-????????? README.md
+├── app.py
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
 ## Format CSV pour l'import
-| Colonne | Type | Obligatoire |
-|---|---|---|
-| timestamp | datetime | ??? |
-| traffic_gbps | float | ??? |
-| latency_ms | float | ??? |
-| congestion_pct | float | ??? |
-| energy_kwh | float | ??? |
-| packet_loss_pct | float | ??? |
-| throughput_mbps | float | ??? |
-| signal_dbm | float | ??? |
-| active_users | int | ??? |
+
+| Colonne         | Type     | Obligatoire |
+|-----------------|----------|-------------|
+| timestamp       | datetime | OUI         |
+| traffic_gbps    | float    | OUI         |
+| latency_ms      | float    | OUI         |
+| congestion_pct  | float    | optionnel   |
+| energy_kwh      | float    | optionnel   |
+| packet_loss_pct | float    | optionnel   |
+| throughput_mbps | float    | optionnel   |
+| signal_dbm      | float    | optionnel   |
+| active_users    | int      | optionnel   |
 
 ---
 
@@ -63,6 +65,6 @@ autotel-ai/
 ---
 
 ## Auteur
-**ANOH AMON HEMERSON** ??? Data Scientist ?? Analytique T??l??com ?? Syst??mes IA
+**ANOH AMON HEMERSON** — Data Scientist · Analytique Telecom · Systemes IA
 
-*AutoTel AI v3.0 ??? Construit pour les op??rations t??l??com enterprise*
+*AutoTel AI v3.0 — Construit pour les operations telecom enterprise*
